@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .head{
+    height: 350px;
+    background: #300236;
+    color: #fcf8fc;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .head2{
+       padding-top:100px;
+  }
+  .textDiv{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+   img{
+    width: 300px;
+    height: 200px;
+  }
+  .ImageContainerDiv{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat (2,300px) ;
+    grid-row-gap:10px;
+    grid-column-gap: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .ImageContainerDiv img{
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+.container{
+    text-align: center;
+}
+.head2 img{
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    border-radius: 50%;
+}
+span{
+    color: rgb(112, 68, 189);
+}
+.la{
+    background: transparent;
+    height: 50%;
+    width: 32%;
+    position: absolute;
+    top: 0;
+    left: 34%;
+    transition: 0.5s;
+}
+.la:hover{
+    background: rgba(207, 86, 86, 0.708);
+
+}
+.la h3{
+    width: 100%;
+    font-weight: 500;
+    color: #f7e5f6;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.la:hover h3{
+    bottom: 49%;
+    opacity: 1;
+    
+
+}
+.p{
+  margin-top: 4px;
+  color: #66136f;
+  font-weight: 700;
+}
+.fa-brands{
+  
+  font-weight: 700;
+  margin: 2px;
+  font-size: large;
+}
